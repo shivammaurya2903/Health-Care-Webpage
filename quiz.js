@@ -60,7 +60,7 @@ function submitQuiz() {
     if (val) score += parseInt(val.value);
   }
 
-  let resultText = `Your score: ${score}/20\n\n`;
+  let resultText = "";
   if (score >= 15) {
     resultText += "Your responses suggest elevated stress or emotional challenges. Consider speaking with a mental health professional.";
   } else if (score >= 8) {
