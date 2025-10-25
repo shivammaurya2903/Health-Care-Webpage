@@ -7,7 +7,6 @@
 
 /* HEADER STYLES */
 header {
-  position: sticky;
   top: 0;
   z-index: 100;
 }
@@ -312,73 +311,7 @@ body {
   margin: 0 auto;
 }
 
-/* RESPONSIVE */
-@media (max-width: 768px) {
-  .hero {
-    padding: 40px 5%;
-  }
 
-  .hero-content {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .stats {
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-
-  .pricing {
-    padding: 40px 5%;
-  }
-
-  .pricing-container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .about {
-    padding: 40px 5%;
-  }
-
-  .about-cards {
-    flex-direction: column;
-  }
-
-  .wellbeing {
-    padding: 40px 5%;
-  }
-
-  .navbar {
-    padding: 0.5rem 1rem;
-  }
-
-  .logo {
-    font-size: 1.2rem;
-  }
-
-  .nav-links {
-    gap: 1rem;
-  }
-
-  .footer {
-    padding: 2rem 1rem;
-  }
-
-  .footer-top {
-    flex-direction: column;
-    gap: 1.5rem;
-  }
-
-  .footer-brand h3 {
-    margin-left: 0;
-  }
-
-  .footer-brand p {
-    margin-left: 0;
-  }
-}
 
 /* FOOTER STYLES */
 .footer {
